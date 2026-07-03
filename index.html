@@ -1306,7 +1306,11 @@
         desc: 'Built an automated forecasting pipeline that ingests three years of POS data, engineers seasonality and promo features, and produces weekly SKU-level demand forecasts feeding the replenishment team.',
         metrics: [{value:'↑12%',label:'Forecast accuracy'},{value:'−18%',label:'Stockout rate'},{value:'40',label:'Stores served'}],
         highlights: ['Engineered promo, holiday and weather features from raw POS logs.','Benchmarked Prophet, SARIMA and gradient boosting; shipped an ensemble.','Automated weekly retraining and delivery via a scheduled notebook.'],
-        media:[{type:'image',src:'https://raw.githubusercontent.com/Mark-The-Analyst/mark-the-analyst/17cbba9b954e5477fe807f6f8f1a3f99914017cc/Test.png',label:'Forecast chart'}, ...],
+        media:[
+          {type:'image', src:'https://raw.githubusercontent.com/Mark-The-Analyst/mark-the-analyst/17cbba9b954e5477fe807f6f8f1a3f99914017cc/Test.png', label:'Forecast chart'},
+          {type:'placeholder', label:'Error metrics'},
+          {type:'pdf', src:'#', label:'Case study PDF'}
+          ],
         github: true,  githubUrl: 'https://github.com',
         dashboard: false
       },
